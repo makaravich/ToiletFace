@@ -1,0 +1,183 @@
+/*
+ Theme Name:   Themify Shoppe child
+ Theme URI:    https://themify.me/themes/shoppe
+ Description:  Themify Shoppe is a multi-purpose WooCommerce theme that helps you build professional eCommerce sites in minutes. It comes with the drag & drop Themify Builder and many eCommerce features such as ajax cart,wishlist,quick look lightbox,ajax quick search,product image zoom/gallery,and tons of layout options. Read <a href="https://themify.me/docs/shoppe-documentation">Shoppe documentation</a> for more information.
+ Author:       John Doe
+ Author URI:   https://www.themify.me
+ Template:     themify-shoppe
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  themify-shoppe-child
+*/
+
+.fixed-header form.woocommerce-product-search {
+    display: none;
+}
+.top-bar-right ul{
+    margin-bottom: 0;
+}
+
+.top-bar-widgets{
+    background-color: #fcf1ff
+}
+.top-bar-right ul li a{line-height: 1;}
+.top-bar-right ul li{
+  padding: 0;
+  margin: 0 5px ;
+   display: inline-flex;
+}
+
+.top-bar-widgets .widget{
+    margin: 0;
+}
+
+input[type="reset"], input[type="submit"], button {
+    background-color: #ed1e24;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+textarea, input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="url"], input[type="number"], input[type="tel"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] {
+    border: 1px solid #ccc;
+    padding: .6em;
+    margin: 0 1em .4em 0;
+    max-width: 100%;
+    -webkit-appearance: none;
+    color: inherit;
+    border-radius: 3px;
+}
+.header-icons{
+    bottom: auto;
+}
+
+#header{
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.main-menu-section{
+  position: relative;
+}
+.main-menu-section .woocommerce-product-search{
+    width: auto;
+    max-width: none;
+   }
+.top-bar-right ul li a i{
+    font-size: 16px;
+}
+.top-bar-widgets .top-bar-widget-inner{
+    padding: 5px;
+    margin: auto;
+}
+#main-nav{
+    padding-left: 0 !important;
+}
+#site-logo{
+    margin-right: 30px;
+}
+#main-nav li > .sub-menu{
+    top:auto;
+}
+#main-nav a{
+    padding: 0.70em .4em;
+}
+.module_row.novelty_categ .image-content,
+.tf_box.tf_w a.search-button.tf_box {
+    display: none;
+}
+
+.tf_box.tf_w.fixed-header a.search-button.tf_box {
+    display: block;
+}
+.top_mobile_header_content .widget,
+.top_mobile_header_content p{
+   margin-bottom: 0 !important;
+}
+.top_mobile_header_content p{
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+.top_mobile_header_content{
+   background-color:  rgba(243,180,180,1);
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.align-self-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.justify-content-center{
+    justify-content: center;
+}
+#trustpilot-section h3{  
+   line-height: 1;
+   font-size: 36px;
+   margin-bottom: 0;
+}
+.woocommerce form .form-row .ywapo_input_container label,
+.woocommerce form .form-row label,
+.ywapo_label_price{
+    display: none !important;
+}
+.trustpo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.trustPlogo{
+  margin-left: 20px;
+}
+.d-flextrustpo{
+  display: flex;
+}
+.module-image.circle .image-wrap img{
+	width: 210px;
+}
+.sidebar-none .themify_builder .module_row.novelty_categ h4{
+  text-transform: capitalize !important;
+}
+.sidebar-none .themify_builder .module_row.novelty_categ a{
+	display: block;
+}
+ /*.module_row.novelty_categ .image-content{
+   display: none;
+ }
+*/
+
+/* */
+body.postid-34583 .strike > p::before, 
+body.postid-34583 .strike > p::after {
+    background: #2c48c4;
+}
+
+/* TODO: Probably want to do this in the page builder instead */
+    body.postid-34583 .themify_builder_content-56879 .tb_ong1568.module-buttons {
+        background-color: #2c48c4;
+        border: none;
+        padding: 3px;
+    }
+
+    body.postid-34583 .themify_builder_content-56879 .tb_ong1568.module-buttons i, 
+    body.postid-34583 .themify_builder_content-56879 .tb_ong1568.module-buttons span {
+        color: #fff;
+    }
+    
+.tf_carousel.product-thumbnails-carousel {
+	max-height: 600px;
+	overflow-y: scroll;
+}
+
+@media (max-width: 900px) {
+	.tf_carousel.product-thumbnails-carousel {
+		max-height: 400px;
+		overflow-y: scroll;
+	}
+}

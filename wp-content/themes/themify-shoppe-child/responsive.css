@@ -1,0 +1,129 @@
+/* ==============================Responsive=================== */
+
+@media only screen and  (min-width: 1200px){
+    .top-bar-widgets .top-bar-widget-inner{
+        width: 80%;
+    }
+    #header{
+        width: 80%;
+    }
+}
+@media (min-width: 320px) and (max-width: 400px){
+  .eapps-form{
+    min-width: 100% !important;
+  }
+    body .swiper-container.product-thumbnails-carousel.tf_rel.tf_left.tf_opacity.swiper-container-initialized.swiper-container-vertical.swiper-container-thumbs{
+	  	max-height: 300px !important;
+	  }
+}
+@media (max-width: 600px){
+    #site-logo{
+        width: 70%;
+    }
+    .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+    display: block !important;
+  }
+  .swiper-container.product-thumbnails-carousel.tf_rel.tf_left.tf_opacity.swiper-container-initialized.swiper-container-vertical.swiper-container-thumbs{
+  	max-height: 360px !important;
+  }
+  .full_width #content{
+    padding-top:0em !important; 
+  }
+  .sidebar-none #content{
+     padding-top:1em; 
+   }
+
+
+
+  .eapps-form-element-wrapper input[type=number],
+  .eapps-form-element-wrapper input[type=text],
+  .eapps-form-element-wrapper  input[type=password],
+  .eapps-form-element-wrapper  input[type=email], 
+  .eapps-form-element-wrapper  input[type=tel] {
+     width: 100%;
+  }
+
+
+}
+@media (max-width: 1120px) and (min-width: 768px){
+      .eapps-form-element-wrapper input[type=number],
+      .eapps-form-element-wrapper input[type=text],
+      .eapps-form-element-wrapper  input[type=password],
+      .eapps-form-element-wrapper  input[type=email], 
+      .eapps-form-element-wrapper  input[type=tel] {
+         width: 100%;
+      }
+
+  }
+@media (max-width: 1000px){
+    .sidemenu .top-bar-widgets,
+    .top-icon-wrap > #icon-menu1 + ul.icon-menu,
+    #icon-menu{
+      display: none;
+    }
+    .top-icon-wrap li a{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        align-items: center;
+    }
+    .icon-menu i{
+        width: 30px;
+        height: 25px;
+    }
+    .woocommerce-product-search{
+        margin: 0 10px;
+    }
+    .top_mobile_header_content{
+      text-align: center;
+    }
+    .d-flextrustpo,
+    .trustpo{
+        display: block;
+        text-align: center;
+    }
+    #trustpilot-section h3{  
+        margin: 10px;
+     }
+      .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+	    display: block !important;
+	  }
+	  /*.swiper-container.product-thumbnails-carousel.tf_rel.tf_left.tf_opacity.swiper-container-initialized.swiper-container-vertical.swiper-container-thumbs{
+	  	max-height: 360px !important;
+	  }
+*/     .page-title, h1{
+              line-height: 1.2;
+     }
+}
+@media  (min-width: 1001px){
+    .top_mobile_header_content,
+    #icon-menu1{
+      display: none;
+    }
+     .banner-small img{
+       padding: 10px;
+      }
+        .eapps-form-element-wrapper input[type=number]{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+  .Mobile_Show_Only .gutter-narrow:not(.tb_grid_classes) > .module_column,
+  .Mobile_Show_Only  .gutter-none:not(.tb_grid_classes) > .module_column,
+  .Mobile_Show_Only  div:not(.tb_grid_classes) > .module_column  {
+      width: 30% !important;
+      margin: 10px auto;
+      text-align: center;
+  } 
+  .Mobile_Show_Only .module_column h4,
+  .Mobile_Show_Only .module_column  .tb_text_wrap{
+    word-wrap: break-word;
+    font-size: 10px; 
+    text-transform: capitalize !important;
+  }
+  .Mobile_Show_Only .module-image.image-center .image-content{
+    display: none;
+  }
+
+}

@@ -1,0 +1,52 @@
+/****** custom css     ****/
+.woocommerce form .form-row label, .woocommerce-page form .form-row label {
+    display: block !important;
+}
+
+.swiper-container.product-thumbnails-carousel.tf_rel.tf_left.tf_opacity.swiper-container-initialized.swiper-container-vertical.swiper-container-thumbs {
+    max-height: 561px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.swiper-container.product-thumbnails-carousel.tf_rel.tf_left.tf_opacity.swiper-container-initialized.swiper-container-vertical.swiper-container-thumbs::-webkit-scrollbar {
+    height: 1px;             
+    width: 1px;              
+    border: 1px solid #f9f9f92b;
+}
+
+.product-content-inner-wrapper .delivery-date {
+    display: none;
+}
+
+.product-content-inner-wrapper .delivery-date.text {
+    display: none;
+}
+header#header {
+    padding-bottom: 0;
+}
+
+#main-nav a {
+    padding-bottom: 0;
+}
+div#trustpilot-section {
+    width: 63%;
+    margin: 0 auto;
+}
+
+div#trustpilot-section h3 {
+    font-size: 24px;
+}
+
+.col4-1.p_container_inner {
+    margin: 0;
+    padding: 0 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.col4-1.p_container_inner img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
